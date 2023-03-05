@@ -2,12 +2,12 @@
 
 namespace App\Repositories;
 
+use App\Interfaces\UserRepositoryInterface;
 use App\Models\User;
 use Illuminate\Pagination\LengthAwarePaginator;
 
-class UserRepository implements \App\Interfaces\UserRepositoryInterface
+class UserRepository implements UserRepositoryInterface
 {
-
     /**
      * @inheritDoc
      */
@@ -19,7 +19,7 @@ class UserRepository implements \App\Interfaces\UserRepositoryInterface
     /**
      * @inheritDoc
      */
-    public function getUserById($userId):array
+    public function getUserById($userId):User
     {
         return User::findOrFail($userId);
     }

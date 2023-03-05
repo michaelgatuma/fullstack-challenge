@@ -1,0 +1,65 @@
+{
+    "data": {
+        "id": 1,
+        "name": "Hilda Yost",
+        "email": "william32@example.org",
+        "email_verified_at": "2023-03-04T01:31:44.000000Z",
+        "latitude": "-8.89542800",
+        "longitude": "75.00391900",
+        "created_at": "2023-03-04T01:31:44.000000Z",
+        "updated_at": "2023-03-04T01:31:44.000000Z",
+        "weather": {
+            "data": {
+                "coord": {
+                    "lon": 75.0039,
+                    "lat": -8.8954
+                },
+                "weather": [
+                    {
+                        "id": 803,
+                        "main": "Clouds",
+                        "description": "broken clouds",
+                        "icon": "04n"
+                    }
+                ],
+                "base": "stations",
+                "main": {
+                    "temp": 301.06,
+                    "feels_like": 303.9,
+                    "temp_min": 301.06,
+                    "temp_max": 301.06,
+                    "pressure": 1012,
+                    "humidity": 72,
+                    "sea_level": 1012,
+                    "grnd_level": 1012
+                },
+                "visibility": 10000,
+                "wind": {
+                    "speed": 5.96,
+                    "deg": 89,
+                    "gust": 6.07
+                },
+                "clouds": {
+                    "all": 57
+                },
+                "dt": 1677965161,
+                "sys": {
+                    "sunrise": 1677978268,
+                    "sunset": 1678022345
+                },
+                "timezone": 18000,
+                "id": 0,
+                "name": "",
+                "cod": 200
+            },
+            "meta": {
+                "created_at": "2023-03-04T21:26:01.138765Z",
+                "ttl": "3600",
+                "expires_at": "2023-03-04T22:26:01.138777Z",
+                "Provider": "OpenWeather",
+                "provider_url": "https://openweathermap.org",
+                "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+            }
+        }
+    }
+}

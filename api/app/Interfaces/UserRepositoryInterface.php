@@ -2,6 +2,7 @@
 
 namespace App\Interfaces;
 
+use App\Models\User;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 interface UserRepositoryInterface
@@ -18,5 +19,5 @@ interface UserRepositoryInterface
      * @param $userId
      * @return mixed
      */
-    public function getUserById($userId): array;
+    public function getUserById($userId):User;
 }
