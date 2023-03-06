@@ -50,6 +50,7 @@ class WeatherService implements WeatherServiceInterface
                     'lat' => $this->lat,
                     'lon' => $this->lon,
                     'appid' => config('open_weather_api.api_key'),
+                    'units' => config('open_weather_api.units','metric'),
                 ])->throwIf($throws);
 
             //cache time to live : 1hr
@@ -58,17 +59,19 @@ class WeatherService implements WeatherServiceInterface
             if ($response->successful())
                 //return weather data
                 return cache()->remember(self::getCacheKey($this->lat, $this->lon), $ttl, function () use ($response, $ttl) {
-                    return [
-                        "data" => $response->json(),
-                        "meta" => [
-                            "created_at" => now(),
-                            "ttl" => "3600",
-                            "expires_at" => $ttl,
-                            "Provider" => "OpenWeather",
-                            "provider_url" => config('open_weather_api.endpoint'),
-                            "provide_logo" => config('open_weather_api.endpoint') . "/themes/openweathermap/assets/img/logo_white_cropped.png"
-                        ]
-                    ];
+                    return  $response->json();
+                    //below code returns nested data which is undesired
+//                    return [
+//                        "data" => $response->json(),
+//                        "meta" => [
+//                            "created_at" => now(),
+//                            "ttl" => "3600",
+//                            "expires_at" => $ttl,
+//                            "Provider" => "OpenWeather",
+//                            "provider_url" => config('open_weather_api.endpoint'),
+//                            "provide_logo" => config('open_weather_api.endpoint') . "/themes/openweathermap/assets/img/logo_white_cropped.png"
+//                        ]
+//                    ];
                 });
             return null;
         }catch (RequestException $e){

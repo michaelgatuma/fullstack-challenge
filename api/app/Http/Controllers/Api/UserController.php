@@ -22,11 +22,7 @@ class UserController extends Controller
      */
     public function index(Request $request): UserCollection
     {
-        if ($request->query('weather',false)){
-            return new UserCollection($this->userRepository->getAllUsers());
-        }else{
-            return new UserCollection($this->userRepository->getAllUsers());
-        }
+        return new UserCollection($this->userRepository->getAllUsers(12));
     }
 
     /**
