@@ -7,10 +7,20 @@ import {
 } from "@headlessui/vue";
 import { BellIcon, CubeTransparentIcon } from "@heroicons/vue/24/outline";
 import UserList from "@/components/UserList.vue";
+import { onMounted, ref } from "vue";
+
+const status = ref("offline");
+
+async function fetchStatus() {
+  const url = "http://localhost/";
+  let response = await (await fetch(url)).json();
+  status.value = response.status;
+  console.log(response.status);
+}
 
 const user = {
-  name: "Tom Cook",
-  email: "tom@example.com",
+  name: "Michael gatuma",
+  email: "michael@example.com",
   imageUrl:
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 };
@@ -23,6 +33,10 @@ const userNavigation = [
   { name: "Settings", href: "#" },
   { name: "Sign out", href: "#" },
 ];
+
+onMounted(() => {
+  fetchStatus();
+});
 </script>
 
 <template>
@@ -56,8 +70,8 @@ const userNavigation = [
               </div>
               <div class="hidden md:block">
                 <div class="ml-4 flex items-center md:ml-6">
-                  <div class="text-white text-sm font-medium">
-                    API Status: ONLINE
+                  <div v-cloak class="text-white text-sm font-medium">
+                    API Status: <span class="uppercase font-semibold text-sm" :class="status==='online'?'text-cyan-500':'text-red-500'" >{{status}}</span>
                   </div>
                 </div>
               </div>
@@ -144,7 +158,7 @@ const userNavigation = [
     <main class="">
       <div class="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
         <!-- Replace with your content -->
-        <UserList/>
+        <UserList />
         <!-- /End replace -->
       </div>
     </main>
