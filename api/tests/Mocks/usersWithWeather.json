@@ -1,0 +1,680 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Hilda Yost",
+            "email": "william32@example.org",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "-8.89542800",
+            "longitude": "75.00391900",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": 75.0039,
+                        "lat": -8.8954
+                    },
+                    "weather": [
+                        {
+                            "id": 803,
+                            "main": "Clouds",
+                            "description": "broken clouds",
+                            "icon": "04n"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 301.06,
+                        "feels_like": 303.9,
+                        "temp_min": 301.06,
+                        "temp_max": 301.06,
+                        "pressure": 1012,
+                        "humidity": 72,
+                        "sea_level": 1012,
+                        "grnd_level": 1012
+                    },
+                    "visibility": 10000,
+                    "wind": {
+                        "speed": 5.96,
+                        "deg": 89,
+                        "gust": 6.07
+                    },
+                    "clouds": {
+                        "all": 57
+                    },
+                    "dt": 1677965161,
+                    "sys": {
+                        "sunrise": 1677978268,
+                        "sunset": 1678022345
+                    },
+                    "timezone": 18000,
+                    "id": 0,
+                    "name": "",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:01.138765Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:01.138777Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": "Christelle Wyman MD",
+            "email": "owelch@example.com",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "-37.91890800",
+            "longitude": "22.70811800",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": 22.7081,
+                        "lat": -37.9189
+                    },
+                    "weather": [
+                        {
+                            "id": 500,
+                            "main": "Rain",
+                            "description": "light rain",
+                            "icon": "10n"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 292.29,
+                        "feels_like": 292.56,
+                        "temp_min": 292.29,
+                        "temp_max": 292.29,
+                        "pressure": 1014,
+                        "humidity": 88,
+                        "sea_level": 1014,
+                        "grnd_level": 1014
+                    },
+                    "visibility": 10000,
+                    "wind": {
+                        "speed": 10.08,
+                        "deg": 126,
+                        "gust": 10.42
+                    },
+                    "rain": {
+                        "1h": 0.13
+                    },
+                    "clouds": {
+                        "all": 100
+                    },
+                    "dt": 1677965161,
+                    "sys": {
+                        "sunrise": 1677903377,
+                        "sunset": 1677949562
+                    },
+                    "timezone": 7200,
+                    "id": 0,
+                    "name": "",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:01.922919Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:01.922928Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "name": "Ariel Cummings",
+            "email": "okuneva.heloise@example.net",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "60.65999900",
+            "longitude": "-159.54758400",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": -159.5476,
+                        "lat": 60.66
+                    },
+                    "weather": [
+                        {
+                            "id": 804,
+                            "main": "Clouds",
+                            "description": "overcast clouds",
+                            "icon": "04d"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 262.41,
+                        "feels_like": 257.46,
+                        "temp_min": 262.41,
+                        "temp_max": 262.41,
+                        "pressure": 1030,
+                        "humidity": 87,
+                        "sea_level": 1030,
+                        "grnd_level": 955
+                    },
+                    "visibility": 10000,
+                    "wind": {
+                        "speed": 2.46,
+                        "deg": 125,
+                        "gust": 2.5
+                    },
+                    "clouds": {
+                        "all": 88
+                    },
+                    "dt": 1677965162,
+                    "sys": {
+                        "country": "US",
+                        "sunrise": 1677950944,
+                        "sunset": 1677989464
+                    },
+                    "timezone": -32400,
+                    "id": 5880573,
+                    "name": "Bethel",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:02.677126Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:02.677135Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "name": "Oceane Schaden",
+            "email": "zachariah.wilkinson@example.org",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "57.65525100",
+            "longitude": "109.54066600",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": 109.5407,
+                        "lat": 57.6553
+                    },
+                    "weather": [
+                        {
+                            "id": 600,
+                            "main": "Snow",
+                            "description": "light snow",
+                            "icon": "13n"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 263.2,
+                        "feels_like": 256.2,
+                        "temp_min": 263.2,
+                        "temp_max": 263.2,
+                        "pressure": 1016,
+                        "humidity": 90,
+                        "sea_level": 1016,
+                        "grnd_level": 945
+                    },
+                    "visibility": 2237,
+                    "wind": {
+                        "speed": 8.08,
+                        "deg": 250,
+                        "gust": 13.11
+                    },
+                    "snow": {
+                        "1h": 0.15
+                    },
+                    "clouds": {
+                        "all": 100
+                    },
+                    "dt": 1677965163,
+                    "sys": {
+                        "country": "RU",
+                        "sunrise": 1677972444,
+                        "sunset": 1678011594
+                    },
+                    "timezone": 28800,
+                    "id": 2027911,
+                    "name": "Alekseyevskaya",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:03.461491Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:03.461501Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "name": "Maymie Rau",
+            "email": "jairo22@example.net",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "5.90533000",
+            "longitude": "-132.23718800",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": -132.2372,
+                        "lat": 5.9053
+                    },
+                    "weather": [
+                        {
+                            "id": 801,
+                            "main": "Clouds",
+                            "description": "few clouds",
+                            "icon": "02d"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 299,
+                        "feels_like": 299.73,
+                        "temp_min": 299,
+                        "temp_max": 299,
+                        "pressure": 1010,
+                        "humidity": 80,
+                        "sea_level": 1010,
+                        "grnd_level": 1010
+                    },
+                    "visibility": 10000,
+                    "wind": {
+                        "speed": 8.51,
+                        "deg": 54,
+                        "gust": 9.74
+                    },
+                    "clouds": {
+                        "all": 11
+                    },
+                    "dt": 1677965164,
+                    "sys": {
+                        "sunrise": 1677942009,
+                        "sunset": 1677985292
+                    },
+                    "timezone": -32400,
+                    "id": 0,
+                    "name": "",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:04.252539Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:04.252553Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "name": "Kelly Tremblay",
+            "email": "vonrueden.pattie@example.org",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "-83.97385500",
+            "longitude": "-17.69253600",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": -17.6925,
+                        "lat": -83.9739
+                    },
+                    "weather": [
+                        {
+                            "id": 801,
+                            "main": "Clouds",
+                            "description": "few clouds",
+                            "icon": "02n"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 237.45,
+                        "feels_like": 230.45,
+                        "temp_min": 237.45,
+                        "temp_max": 237.45,
+                        "pressure": 1010,
+                        "humidity": 82,
+                        "sea_level": 1010,
+                        "grnd_level": 750
+                    },
+                    "visibility": 10000,
+                    "wind": {
+                        "speed": 9.23,
+                        "deg": 95,
+                        "gust": 15.73
+                    },
+                    "clouds": {
+                        "all": 21
+                    },
+                    "dt": 1677965164,
+                    "sys": {
+                        "sunrise": 0,
+                        "sunset": 0
+                    },
+                    "timezone": -10800,
+                    "id": 0,
+                    "name": "",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:05.054983Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:05.054993Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "name": "Elenora Ziemann V",
+            "email": "lynch.alphonso@example.net",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "-72.65602100",
+            "longitude": "-104.33603900",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": -104.336,
+                        "lat": -72.656
+                    },
+                    "weather": [
+                        {
+                            "id": 804,
+                            "main": "Clouds",
+                            "description": "overcast clouds",
+                            "icon": "04d"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 263.97,
+                        "feels_like": 258.22,
+                        "temp_min": 263.97,
+                        "temp_max": 263.97,
+                        "pressure": 983,
+                        "humidity": 85,
+                        "sea_level": 983,
+                        "grnd_level": 983
+                    },
+                    "visibility": 10000,
+                    "wind": {
+                        "speed": 3.36,
+                        "deg": 71,
+                        "gust": 3.04
+                    },
+                    "clouds": {
+                        "all": 94
+                    },
+                    "dt": 1677965165,
+                    "sys": {
+                        "sunrise": 1677929537,
+                        "sunset": 1677984373
+                    },
+                    "timezone": -25200,
+                    "id": 0,
+                    "name": "",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:05.821640Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:05.821649Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "name": "Aric Kunde DDS",
+            "email": "pjacobson@example.net",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "-74.43467300",
+            "longitude": "81.45821000",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": 81.4582,
+                        "lat": -74.4347
+                    },
+                    "weather": [
+                        {
+                            "id": 803,
+                            "main": "Clouds",
+                            "description": "broken clouds",
+                            "icon": "04n"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 225.43,
+                        "feels_like": 218.43,
+                        "temp_min": 225.43,
+                        "temp_max": 225.43,
+                        "pressure": 1027,
+                        "humidity": 100,
+                        "sea_level": 1027,
+                        "grnd_level": 658
+                    },
+                    "visibility": 10000,
+                    "wind": {
+                        "speed": 5.71,
+                        "deg": 44,
+                        "gust": 5.66
+                    },
+                    "clouds": {
+                        "all": 67
+                    },
+                    "dt": 1677965166,
+                    "sys": {
+                        "sunrise": 1677970771,
+                        "sunset": 1678026745
+                    },
+                    "timezone": 25200,
+                    "id": 0,
+                    "name": "",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:06.556520Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:06.556533Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "name": "Mariam Rohan",
+            "email": "heidenreich.daron@example.org",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "49.41425200",
+            "longitude": "158.15623900",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": 158.1562,
+                        "lat": 49.4143
+                    },
+                    "weather": [
+                        {
+                            "id": 804,
+                            "main": "Clouds",
+                            "description": "overcast clouds",
+                            "icon": "04d"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 268.63,
+                        "feels_like": 261.63,
+                        "temp_min": 268.63,
+                        "temp_max": 268.63,
+                        "pressure": 1013,
+                        "humidity": 62,
+                        "sea_level": 1013,
+                        "grnd_level": 1013
+                    },
+                    "visibility": 4769,
+                    "wind": {
+                        "speed": 10.67,
+                        "deg": 308,
+                        "gust": 11.11
+                    },
+                    "clouds": {
+                        "all": 100
+                    },
+                    "dt": 1677965167,
+                    "sys": {
+                        "sunrise": 1677960231,
+                        "sunset": 1678000475
+                    },
+                    "timezone": 39600,
+                    "id": 0,
+                    "name": "",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:07.296996Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:07.297008Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "name": "Maryam Hudson",
+            "email": "vtoy@example.com",
+            "email_verified_at": "2023-03-04T01:31:44.000000Z",
+            "latitude": "-83.80735500",
+            "longitude": "18.10113600",
+            "created_at": "2023-03-04T01:31:44.000000Z",
+            "updated_at": "2023-03-04T01:31:44.000000Z",
+            "weather": {
+                "data": {
+                    "coord": {
+                        "lon": 18.1011,
+                        "lat": -83.8074
+                    },
+                    "weather": [
+                        {
+                            "id": 802,
+                            "main": "Clouds",
+                            "description": "scattered clouds",
+                            "icon": "03n"
+                        }
+                    ],
+                    "base": "stations",
+                    "main": {
+                        "temp": 227.37,
+                        "feels_like": 220.37,
+                        "temp_min": 227.37,
+                        "temp_max": 227.37,
+                        "pressure": 1029,
+                        "humidity": 91,
+                        "sea_level": 1029,
+                        "grnd_level": 706
+                    },
+                    "visibility": 10000,
+                    "wind": {
+                        "speed": 5.49,
+                        "deg": 67,
+                        "gust": 6.79
+                    },
+                    "clouds": {
+                        "all": 35
+                    },
+                    "dt": 1677965167,
+                    "sys": {
+                        "sunrise": 0,
+                        "sunset": 0
+                    },
+                    "timezone": 0,
+                    "id": 0,
+                    "name": "",
+                    "cod": 200
+                },
+                "meta": {
+                    "created_at": "2023-03-04T21:26:08.049455Z",
+                    "ttl": "3600",
+                    "expires_at": "2023-03-04T22:26:08.049466Z",
+                    "Provider": "OpenWeather",
+                    "provider_url": "https://openweathermap.org",
+                    "provide_logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+                }
+            }
+        }
+    ],
+    "links": {
+        "self": "http://localhost/users",
+        "first": "http://localhost/users?page=1",
+        "last": "http://localhost/users?page=2",
+        "prev": null,
+        "next": "http://localhost/users?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 2,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "http://localhost/users?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": "http://localhost/users?page=2",
+                "label": "2",
+                "active": false
+            },
+            {
+                "url": "http://localhost/users?page=2",
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "http://localhost/users",
+        "per_page": 10,
+        "to": 10,
+        "total": 20
+    }
+}
