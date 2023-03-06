@@ -1,20 +1,16 @@
-<script>
-export default {
-  data: () => ({
-    apiResponse: null
-  }),
+<script setup>
+import {onBeforeMount, ref} from "vue";
 
-  created() {
-    this.fetchData()
-  },
+let apiResponse = ref(null);
 
-  methods: {
-    async fetchData() {
-      const url = 'http://localhost/'
-      this.apiResponse = await (await fetch(url)).json()
-    }
-  }
+async function fetchData() {
+  const url = "http://localhost/";
+  apiResponse.value = await (await fetch(url)).json();
 }
+
+onBeforeMount(() => {
+  fetchData();
+});
 </script>
 
 <template>
@@ -23,9 +19,9 @@ export default {
   </div>
 
   <div v-if="apiResponse">
-    The api responded with: <br />
+    The api responded with: <br/>
     <code>
-    {{ apiResponse }}
+      {{ apiResponse }}
     </code>
   </div>
 </template>
