@@ -1,5 +1,7 @@
 # Fullstack Challenge
-
+![Alt text](/Screenshot.png?raw=true "Screenshot")
+## Usage
+Weather may be updated using `php artisan weather:update`. You do not need to do this action as the scheduler will dispatch a job to update the weather every hour and store the weather it in the cache for fast retrieval
 ## Instructions
 Using Laravel and VueJS, create an application which shows the weather for a set of users.
 - Clone this repository. 
