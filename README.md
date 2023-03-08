@@ -1,5 +1,6 @@
 # Fullstack Challenge
 ![Alt text](/Screenshot.png?raw=true "Screenshot")
+[![Test](https://github.com/michaelgatuma/fullstack-challenge/actions/workflows/test.yml/badge.svg)](https://github.com/michaelgatuma/fullstack-challenge/actions/workflows/test.yml)
 ## Usage
 Weather may be updated using `php artisan weather:update`. You do not need to do this action as the scheduler will dispatch a job to update the weather every hour and store the weather it in the cache for fast retrieval
 ## Instructions
